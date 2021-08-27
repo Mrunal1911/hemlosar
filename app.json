@@ -1,0 +1,107 @@
+{
+
+      "name": "Mrunal Logo",
+
+      "description": "Telegram Logo bot.",
+
+      "logo": "https://telegra.ph/file/8f6b24120aab8490dca45.jpg",
+
+      "keywords": [
+
+         "telegram",
+
+         "anime",
+
+         "group",
+
+         "manager",
+
+         "Layla"
+
+      ],   
+
+   "repository": "https://github.com/msy1717/logo-bymrunal.git",
+
+   "addons": [
+
+      {
+
+         "options": {
+
+            "version": "12"
+
+         },
+
+         "plan": "heroku-postgresql"
+
+      }
+
+   ],
+
+   "buildpacks": [
+
+    {
+
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+
+    },
+
+    {
+
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+    }
+
+  ],  
+
+   "env": {
+
+      "TOKEN": {
+
+         "description": "Your bot token. Get one from @BotFather duh",
+
+         "required": true,
+
+         "value": ""
+
+      },
+
+      "API_ID": {
+
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+
+         "required": true,
+
+         "value": ""
+
+      },
+
+      "API_HASH": {
+
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+
+         "required": true,
+
+         "value": ""
+
+      
+
+      },      
+
+      "OWNER_ID": {
+
+         "description": "Your user ID as an integer.",
+
+         "required": true,
+
+         "value": "797768146"
+
+ 
+
+}
+
+      
+
+   }
+
+}
