@@ -1,1 +1,1 @@
-worker: python Dockerfile
+worker: python main.py
