@@ -1,5 +1,5 @@
 build:
   docker:
-      worker: Dockerfile
+      worker: main.py
 run:
    worker: python3 main.py
